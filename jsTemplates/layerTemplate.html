@@ -1,0 +1,19 @@
+map.addLayer({ 'id': '<ID>','type': 'line',
+        'source': { 'type': 'geojson',
+            'data': { 'type': 'Feature','properties': {},
+                'geometry': {'type': 'LineString','coordinates': 
+                    [
+                    <<< Place Coords Here >>>
+                    ]
+                }
+            }
+        },
+        'layout': {
+            'line-join': 'miter',
+            'line-cap': 'round'
+        },
+        'paint': {
+            'line-color': 'rgba(<r>, <g>, <b>, <t>)',
+            'line-width': 4
+        }
+});
